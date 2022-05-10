@@ -44,8 +44,7 @@ a {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 
     /* outline: 2px solid tomato; */
 }
@@ -70,6 +69,7 @@ a {
 .page-nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo-nav {
@@ -88,10 +88,8 @@ a {
 
 .contacts {
     display: flex;
-    justify-content: flex-end;
     padding-left: 0;
     padding-right: 0;
-    margin-left: auto;
 }
 
 .contacts .item:not(:last-child) {
@@ -163,6 +161,8 @@ a {
     padding-bottom: 200px;
 
     text-align: center;
+
+
     background-color: var(--background-color);
 }
 
@@ -213,6 +213,7 @@ a {
 
 .benefits {
     display: flex;
+    justify-content: space-between;
 }
 
 .section-title {
@@ -253,19 +254,11 @@ a {
     width: calc((100% - 90px) / 4);
 }
 
-.benefits .item:not(:last-child) {
-    margin-right: 30px;
-}
-
 /* What we do */
 
 .works {
     display: flex;
-}
-
-.works .item:not(:last-child) {
-    margin-right: 30px;
-    display: flex;
+    justify-content: space-between;
 }
 
 /* Our team */
@@ -276,6 +269,7 @@ a {
 
 .team {
     display: flex;
+    justify-content: space-between;
     font-size: 16px;
     line-height: 1.188;
     text-align: center;
@@ -303,10 +297,6 @@ a {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team .item:not(:last-child) {
-    margin-right: 30px;
-}
-
 /* Portolio */
 
 /* Filter */
@@ -330,8 +320,6 @@ a {
 
 .examples .item {
     width: calc((100% - 60px) / 3);
-    width: 370px;
-
     margin-right: 30px;
     margin-bottom: 30px;
 }
